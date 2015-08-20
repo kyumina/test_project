@@ -20,3 +20,4 @@ class NthPrimeTest(unittest.TestCase):
         self.assertEqual(prime.nth_prime(2), 5)
         self.assertEqual(prime.nth_prime(10), 31)
         self.assertEqual(prime.nth_prime(100), 547)
+        self.assertEqual(prime.nth_prime(10000),104743)
