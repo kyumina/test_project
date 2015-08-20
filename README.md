@@ -1,2 +1,3 @@
 # Testproject
-ﾇﾍﾞｼﾞｮﾝ
+This is test project.
+
