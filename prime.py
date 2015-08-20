@@ -8,5 +8,11 @@ def is_prime(x):
     return True
 
 def nth_prime(n):
-    primes = [2,3,5,7,9,11]
-    return primes[n]
+    count = -1
+    num = 0
+    while True:
+        if is_prime(num):
+            count += 1
+            if count == n:
+                return num
+        num += 1
